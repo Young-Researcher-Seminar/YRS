@@ -1,0 +1,90 @@
+---
+layout: default
+---
+
+<!-- Information -->
+<div class="jumbotron information">
+
+<p> The <strong>[CEREMADE](https://www.ceremade.dauphine.fr/)</strong> (CEntre de REcherche en MAthématiques de la DÉcision) is holding a two-day event called <strong>Young Researchers Days</strong>, organized by PhD students in the laboratory, and generously supported by the <strong>[doctoral school](https://edd.dauphine.fr/)</strong> of Paris Dauphine University - PSL. </p>
+
+<p> The purpose of this meeting is to bring together young members of the community, encouraging them to participate, exchange and share. Scientific and human interactions are fostered by such moments, and play a big role in the beginning of their careers (academic or not). Students' research areas covers a wide spectrum of topics in Mathematics, within the scope of the laboratory. </p>
+
+<p> The CEREMADE is a research center in applied mathematics in which are studied applications of mathematics to areas of science as diverse as Economics, Finance, Image and Signal Processing, Data Analysis and Classification Theory, Mathematical Physics, Mechanics, Epidemiology and Astronomy. Our main goal is the mathematical analysis of these problems, but also numerical computations and the aid to practical implementation. Our research increases the knowledge and understanding of phenomena belonging to these different application areas, and naturally turns to other disciplines; it results in some cases in cooperation with business and industry. </p>
+
+<p> Hope to see you all during the YRDs!</p>
+
+</div>
+
+
+<!-- Content -->
+
+<h2>Speakers</h2>
+TBD
+<!-- <div class="row justify-content-center people-widget text-center">
+
+{% for item in site.data.speakers  %}
+
+<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+  <a href="{{ item.url }}">
+  <div class="team-member">
+
+    {% if item.img %}
+    <img src="{{ site.baseurl }}/assets/speakers/{{ item.img }}" class="img-responsive img-circle avatar-x2 avatar-circle" alt="">
+    {% else %}
+    <div class="avatar-x2 avatar-circle" style="background: #ddd;">
+      <i class="fa fa-user" style="font-size: 220px; color: #eee; margin-top:20px;"></i>
+    </div>
+    {% endif %}
+    <h4>{{ item.name }}</h4>
+    <p class="text-muted">{{ item.affiliation }}</p>
+  </div>
+  </a>
+</div>
+
+{% endfor %}
+
+</div> -->
+
+<h2>Event Program</h2>
+TBD
+<!-- The workshop <a href="/program">program</a> is online! -->
+
+<h2>Call for Presentations</h2>
+
+<p>We invite <i>two</i> types of submissions: <b> Short presentations by first-year PhD students (10 minutes)</b> and <b>Long presentations by other students (45 minutes)</b>. </p>
+
+<p>All submissions will be presented at the Young Researcher Days.  
+<br/>
+<br/>
+</p>
+
+<h2>Organizers</h2>
+
+<div class="row justify-content-center people-widget text-center">
+
+<div class="col-12 col-sm-4 col-md-3 col-lg-2 col-xl-2">
+  <a href="{{ item.url }}">
+  <div class="team-member">
+    <!-- <img src="{{ site.baseurl }}/assets/speakers/{{ item.img }}" class="img-responsive img-circle avatar avatar-circle" alt=""></br> -->
+    <strong>{{ item.name }}</strong>
+    <!-- <p class="text-muted">{{ item.affiliation }}</p> -->
+  </div>
+  </a>
+</div>
+
+</div>
+
+
+<ul>
+
+{% for item in site.data.organizers  %}
+
+  <li><a href="{{ item.url }}"><strong>{{ item.name }}</strong></a>, {{ item.affiliation }}</li>
+
+{% endfor %}
+
+</ul>
+
+
+
+

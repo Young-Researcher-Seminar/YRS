@@ -1,0 +1,26 @@
+
+baseurl: "https://young-researcher-days.github.io"
+color-scheme: "#1a2090" #the scheme can be any HEX code like "#334279"
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
+
+exclude:
+  - .sass-cache
+
+title: "Young Researcher Days"
+subtitle: "[CEREMADE Seminar Series](https://www.ceremade.dauphine.fr/fr/seminaires.html)"
+
+shorttitle: "YRS @ CEREMADE"
+information: "CEREMADE Young Researcher Days." 
+
+organizers: "CEREMADE PhD students"
+
+deadlines:
+  - item: Submission deadline
+    date: TBD
+  
