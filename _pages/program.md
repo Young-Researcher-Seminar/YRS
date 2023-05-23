@@ -71,7 +71,7 @@ title: Program
     </tr>
     <tr>
         <td>16:30 - 17:15</td>
-        <td>Łukasz Mądry</td>
+        <td>Łukasz MĄDRY</td>
         <td>Nicolas MAKAROFF</td>
     </tr>
     <tr>
