@@ -44,7 +44,7 @@ title: Program
         <td>1st years, <strong>Slot 2</strong>
         <br/><small>Antoine LUCIANO</small>
         <br/><small>Maxime SYLVESTRE</small>
-        <br/><small>Jydia GIACOMIN</small>
+        <br/><small>Lydia GIACOMIN</small>
         <br/><small>Martin MALVY</small>
         <br/><small>Hugo MALAMUT</small>
         </td>
