@@ -33,7 +33,7 @@ title: Program
         <td>Coffee Break</td>
     </tr>
     <tr>
-        <td>10:45 - 11:25</td>
+        <td>11:30 - 12:45</td>
         <td>1st years, <strong>Slot 1</strong>
         <br/><small>Benoit ORIOL</small>
         <br/><small>Lucas REY</small>
