@@ -3,13 +3,23 @@
 #   authors: John Doe
 #   abstract: TBA
 
-- title: "Isentropic Euler equations: uniqueness and vacuum"
+- title: |
+    Isentropic Euler equations: uniqueness and vacuum
   type: long
   authors: Animesh JANA
-  abstract: "The motion of a compressible non-viscous fluid is governed by the Euler equations. In multi dimension, the well-posedness of entropy solution is an open question. We discuss the uniqueness of H ̈older continuous solution in the set of weak solutions satisfying entropy conditions. To prove the uniqueness, we impose (i) 1/2 H ̈older regularity and (ii) a one-sided Lipschitz bound condition on velocity. We further show the weak-strong uniqueness for the isentropic Euler system when the strong solution may contain a vacuum region. To prove the uniqueness result for the vacuum case, we assume an integrability condition on reciprocal of the density function. This talk will be based on the following two articles [1, 2].
-References
+  abstract: |
+    The motion of a compressible non-viscous fluid is governed by the Euler equations. In multi dimension, the well-posedness of entropy solution is an open question. We discuss the uniqueness of H ̈older continuous solution in the set of weak solutions satisfying entropy conditions. To prove the uniqueness, we impose (i) 1/2 H ̈older regularity and (ii) a one-sided Lipschitz bound condition on velocity. We further show the weak-strong uniqueness for the isentropic Euler system when the strong solution may contain a vacuum region. To prove the uniqueness result for the vacuum case, we assume an integrability condition on reciprocal of the density function. This talk will be based on the following two articles [1, 2].
+    
+    References
+    
+    [1] E. Feireisl, S. S. Ghoshal and A. Jana, On uniqueness of dissipative solutions to the isentropic Euler system. Comm. Partial Differential Equations, 44, no. 12, 1285–1298, (2019).
+    [2] S. S. Ghoshal, A. Jana and E. Wiedemann, Weak-Strong Uniqueness for the Isentropic Euler Equations with Possible Vacuum. Partial Differ. Equ. Appl. 3 (2022), no. 4, Paper No. 54, 21 pp.
+ 
 
-[1] E. Feireisl, S. S. Ghoshal and A. Jana, On uniqueness of dissipative solutions to the isentropic Euler system. Comm. Partial Differential Equations, 44, no. 12, 1285–1298, (2019).
+- title: |
+     Vicsek-Kuramoto third order system in collective dynamics and their macroscopic equations
+  type: long
+  authors: Carmela MOSCHELLA (University of Vienna), joint work with Sara Merino Aceituno
+  abstract: |
+    In this talk we consider an Individual-Based Model for self-propelled particles interacting through local alignment and investigate its macroscopic limit. This model has been first introduced by C. Chen et al. to describe the behaviour of dense colony of flagellated bacteria (e.g. Escherichia coli) which self organize into robust collective oscillatory motion. In view of this, a ’Vicsek- Kuramoto style’ model has been used. The agent based model combines both Kuramoto and Vicsek dynamics - it takes from Kuramoto model the way in which agents try to syncronize the phase of their rotational movement and from the Vicsek model the fact that the syncronization is spacially local. We study the mean-field kinetic and hydrodynamic limits of this system. Due to the lack of energy and momentum preservation in the system, we use the notion of gen- eralized collisional invariant to obtain a closed set of macroscopic equation for the model. The final macroscopic model involves a continuity equation for the total density of particles, a non conservative equation for angular momentum density and a non conservative equation for the direction of the mean velocity.
 
-[2] S. S. Ghoshal, A. Jana and E. Wiedemann, Weak-Strong Uniqueness for the Isentropic Euler Equations with Possible Vacuum. Partial Differ. Equ. Appl. 3 (2022), no. 4, Paper No. 54, 21 pp.
- " 
