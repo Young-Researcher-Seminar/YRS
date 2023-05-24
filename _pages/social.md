@@ -8,6 +8,8 @@ title:
 
 <h1>Social Events</h1>
 
+In the evening of Thursday June 1
+
 <h2>Restaurant</h2>
 
 <strong>Il Cottage</strong>

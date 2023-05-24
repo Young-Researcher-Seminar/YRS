@@ -4,12 +4,12 @@ permalink: /presentations/
 title: Presentations
 ---
 
-# TBD
 
+# Short Presentations
 
-<!-- # Short Presentations
+TBD
 
-<ul>
+<!-- <ul>
 {% for item in site.data.presentations  %}
 {% if item.type == "short" %}
   <li><strong>{{ item.title }}</strong><br/>
@@ -17,7 +17,7 @@ title: Presentations
   <small><i>{{ item.abstract }}</i></small>
 {% endif %}
 {% endfor %}
-</ul>
+</ul> -->
 
 # Long Presentations
 
@@ -29,4 +29,4 @@ title: Presentations
   <small><i>{{ item.abstract }}</i></small>
 {% endif %}
 {% endfor %}
-</ul> -->
+</ul>

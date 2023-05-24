@@ -25,7 +25,7 @@ title: Program
     <tr>
         <td>10:00 - 11:00</td>
         <td>Guillaume CHAZAREIX</td>
-        <td>Antoine BURG</td>
+        <td>Łukasz MĄDRY</td>
     </tr>
     <tr>
         <td>11:00-11:30</td>
@@ -71,7 +71,7 @@ title: Program
     </tr>
     <tr>
         <td>16:30 - 17:15</td>
-        <td>Łukasz MĄDRY</td>
+        <td>Antoine BURG</td>
         <td>Nicolas MAKAROFF</td>
     </tr>
     <tr>
