@@ -36,17 +36,17 @@ title: Program
         <td>11:30 - 12:45</td>
         <td>1st years, <strong>Slot 1</strong>
         <br/><small>Benoit ORIOL</small>
-        <br/><small>Lucas REY</small>
+        <br/><small>Maxime SYLVESTRE</small>
         <br/><small>Antoine LOTZ</small>
         <br/><small>Quentin FRANÇOIS</small>
         <br/><small>Emma KOPP</small>
         </td>
         <td>1st years, <strong>Slot 2</strong>
         <br/><small>Antoine LUCIANO</small>
-        <br/><small>Maxime SYLVESTRE</small>
         <br/><small>Lydia GIACOMIN</small>
-        <br/><small>Martin MALVY</small>
         <br/><small>Hugo MALAMUT</small>
+        <br/><small>Luca ZIVIANI</small>
+        <br/><small></small>
         </td>
     </tr>
     <tr>

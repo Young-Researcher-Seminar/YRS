@@ -9,15 +9,16 @@ title: Presentations
 
 TBD
 
-<!-- <ul>
+<ul>
 {% for item in site.data.presentations  %}
 {% if item.type == "short" %}
   <li><strong>{{ item.title }}</strong><br/>
-  <small><i>{{ item.authors }}</i></small></li>
-  <small><i>{{ item.abstract }}</i></small>
+  <i>{{ item.authors }}</i></li>
+  <small>{{ item.abstract }}</small>  <br/>
+
 {% endif %}
 {% endfor %}
-</ul> -->
+</ul>
 
 # Long Presentations
 
@@ -25,8 +26,9 @@ TBD
 {% for item in site.data.presentations  %}
 {% if item.type == "long" %}
   <li><strong>{{ item.title }}</strong><br/>
-  <small><i>{{ item.authors }}</i></small></li>
-  <small><i>{{ item.abstract }}</i></small>
+  <i>{{ item.authors }}</i></li>
+  <small>{{ item.abstract }}</small>  <br/>
+
 {% endif %}
 {% endfor %}
 </ul>
