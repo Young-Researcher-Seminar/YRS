@@ -29,7 +29,7 @@ title: Program
     </tr>
     <tr>
         <td>11:00-11:30</td>
-        <td>Coffee Break</td>
+        <td><i>Coffee Break</i></td>
         <td>Coffee Break</td>
     </tr>
     <tr>
@@ -51,8 +51,8 @@ title: Program
     </tr>
     <tr>
         <td>12:45 - 14:30</td>
-        <td>Lunch</td>
-        <td>Lunch</td>
+        <td><i>Lunch</i></td>
+        <td><i>Lunch</i></td>
     </tr>
     <tr>
         <td>14:30 - 15:15</td>
@@ -66,8 +66,8 @@ title: Program
     </tr>
     <tr>
         <td>16:00 - 16:30</td>
-        <td>Coffee Break</td>
-        <td>Coffee Break</td>
+        <td><i>Coffee Break</i></td>
+        <td><i>Coffee Break</i></td>
     </tr>
     <tr>
         <td>16:30 - 17:15</td>
