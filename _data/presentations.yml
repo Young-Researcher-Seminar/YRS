@@ -33,3 +33,10 @@
   authors: Quentin FRANCOIS
   abstract: |
     In this talk, I will present recent results on the convergence of the reciprocal characteristic polynomial for Girko matrices as a random holomorphic function. This result is a universality result as the limiting object only depends on the second moment of the entries of the matrix. After exposing the techniques used in the proof, I will point out a continuation of this work in the context of Elliptic Ginibre matrices.
+
+- title: |
+     An Introduction to Self-Supervised Learning
+  type: long
+  authors: Nicolas MAKAROFF
+  abstract: |
+    The presentation is a comprehensive introduction to Self-Supervised Learning (SSL), focusing on its key methods: Contrastive Learning, Self-Distillation, and Correlation Methods. The growing importance of SSL in leveraging unlabeled data for representation learning is underscored. We explore Contrastive Learning's theoretical underpinnings, distinguishing between positive and negative samples, and its successful implementations. Self-Distillation's knowledge propagation between teacher-student networks, even without label information, is examined, alongside its current applications and theoretical foundations. Next, we investigate Correlation Methods, which use statistical relationships within data for learning, providing a theoretical analysis of their effectiveness and limitations. In conclusion, the presentation aims to provide a introductory theoretical understanding of SSL.
