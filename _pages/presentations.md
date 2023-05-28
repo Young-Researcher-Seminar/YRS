@@ -7,8 +7,6 @@ title: Presentations
 
 # Short Presentations
 
-TBD
-
 <ul>
 {% for item in site.data.presentations  %}
 {% if item.type == "short" %}
