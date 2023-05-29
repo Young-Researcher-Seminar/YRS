@@ -40,3 +40,19 @@
   authors: Nicolas MAKAROFF
   abstract: |
     The presentation is a comprehensive introduction to Self-Supervised Learning (SSL), focusing on its key methods: Contrastive Learning, Self-Distillation, and Correlation Methods. The growing importance of SSL in leveraging unlabeled data for representation learning is underscored. We explore Contrastive Learning's theoretical underpinnings, distinguishing between positive and negative samples, and its successful implementations. Self-Distillation's knowledge propagation between teacher-student networks, even without label information, is examined, alongside its current applications and theoretical foundations. Next, we investigate Correlation Methods, which use statistical relationships within data for learning, providing a theoretical analysis of their effectiveness and limitations. In conclusion, the presentation aims to provide a introductory theoretical understanding of SSL.
+
+- title: |
+     An Introduction to Self-Supervised Learning
+  type: long
+  authors: Nicolas MAKAROFF
+  abstract: |
+    The presentation is a comprehensive introduction to Self-Supervised Learning (SSL), focusing on its key methods: Contrastive Learning, Self-Distillation, and Correlation Methods. The growing importance of SSL in leveraging unlabeled data for representation learning is underscored. We explore Contrastive Learning's theoretical underpinnings, distinguishing between positive and negative samples, and its successful implementations. Self-Distillation's knowledge propagation between teacher-student networks, even without label information, is examined, alongside its current applications and theoretical foundations. Next, we investigate Correlation Methods, which use statistical relationships within data for learning, providing a theoretical analysis of their effectiveness and limitations. In conclusion, the presentation aims to provide a introductory theoretical understanding of SSL.
+
+- title: |
+     Multi-Marginal Entropic Martingale Optimal Transport and applications to the calibration of Stochastic Processes
+  type: long
+  authors: Guillaume CHAZAREIX
+  abstract: |
+    Martingale Optimal Transport has found extensive applications in various financial contexts, particularly in the calibration of stochastic processes. The numerical solutions for this problem involve tackling a variational problem that entails non-linear partial differential equations. In this presentation, we delve into a discretization approach for the continuous problem and introduce a relaxation technique by incorporating an entropy term. This relaxation enables the utilization of algorithms analogous to those employed in classical entropic optimal transport. Moreover, we outline potential methodologies for implementing this algorithm on a GPU platform, thereby enhancing computational efficiency.
+
+
