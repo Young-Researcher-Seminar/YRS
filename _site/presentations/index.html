@@ -130,6 +130,21 @@
 
 </div>
 
+<!-- MathJax -->
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
 
 <!-- Page content -->
 
@@ -141,9 +156,26 @@
   <!-- Page Content -->
   <h1 id="short-presentations">Short Presentations</h1>
 
-<p>TBD</p>
-
 <ul>
+
+
+  <li><strong>Hybrid methods for Regularized Optimal Transport</strong><br />
+  <i>Maxime SYLVESTRE</i></li>
+  <small>The weak optimal transport is a generalization of OT with multiple applications. However the lack of structure renders it harder to compute. We propose to study methods of computation.</small>  <br />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -154,6 +186,8 @@
 <h1 id="long-presentations">Long Presentations</h1>
 
 <ul>
+
+
 
 
   <li><strong>Isentropic Euler equations: uniqueness and vacuum
@@ -173,8 +207,64 @@ References
 
   <li><strong>Vicsek-Kuramoto third order system in collective dynamics and their macroscopic equations
 </strong><br />
-  <i>Carmela MOSCHELLA (University of Vienna), joint work with Sara Merino Aceituno</i></li>
+  <i>Carmela MOSCHELLA (University of Vienna), joint work with Sara Merino ACEITUNO</i></li>
   <small>In this talk we consider an Individual-Based Model for self-propelled particles interacting through local alignment and investigate its macroscopic limit. This model has been first introduced by C. Chen et al. to describe the behaviour of dense colony of flagellated bacteria (e.g. Escherichia coli) which self organize into robust collective oscillatory motion. In view of this, a ’Vicsek- Kuramoto style’ model has been used. The agent based model combines both Kuramoto and Vicsek dynamics - it takes from Kuramoto model the way in which agents try to syncronize the phase of their rotational movement and from the Vicsek model the fact that the syncronization is spacially local. We study the mean-field kinetic and hydrodynamic limits of this system. Due to the lack of energy and momentum preservation in the system, we use the notion of gen- eralized collisional invariant to obtain a closed set of macroscopic equation for the model. The final macroscopic model involves a continuity equation for the total density of particles, a non conservative equation for angular momentum density and a non conservative equation for the direction of the mean velocity.
+</small>  <br />
+
+
+
+
+  <li><strong>Asymptotics of random characteristic polynomials
+</strong><br />
+  <i>Quentin FRANCOIS</i></li>
+  <small>In this talk, I will present recent results on the convergence of the reciprocal characteristic polynomial for Girko matrices as a random holomorphic function. This result is a universality result as the limiting object only depends on the second moment of the entries of the matrix. After exposing the techniques used in the proof, I will point out a continuation of this work in the context of Elliptic Ginibre matrices.
+</small>  <br />
+
+
+
+
+  <li><strong>An Introduction to Self-Supervised Learning
+</strong><br />
+  <i>Nicolas MAKAROFF</i></li>
+  <small>The presentation is a comprehensive introduction to Self-Supervised Learning (SSL), focusing on its key methods: Contrastive Learning, Self-Distillation, and Correlation Methods. The growing importance of SSL in leveraging unlabeled data for representation learning is underscored. We explore Contrastive Learning's theoretical underpinnings, distinguishing between positive and negative samples, and its successful implementations. Self-Distillation's knowledge propagation between teacher-student networks, even without label information, is examined, alongside its current applications and theoretical foundations. Next, we investigate Correlation Methods, which use statistical relationships within data for learning, providing a theoretical analysis of their effectiveness and limitations. In conclusion, the presentation aims to provide a introductory theoretical understanding of SSL.
+</small>  <br />
+
+
+
+
+  <li><strong>Multi-Marginal Entropic Martingale Optimal Transport and applications to the calibration of Stochastic Processes
+</strong><br />
+  <i>Guillaume CHAZAREIX</i></li>
+  <small>Martingale Optimal Transport has found extensive applications in various financial contexts, particularly in the calibration of stochastic processes. The numerical solutions for this problem involve tackling a variational problem that entails non-linear partial differential equations. In this presentation, we delve into a discretization approach for the continuous problem and introduce a relaxation technique by incorporating an entropy term. This relaxation enables the utilization of algorithms analogous to those employed in classical entropic optimal transport. Moreover, we outline potential methodologies for implementing this algorithm on a GPU platform, thereby enhancing computational efficiency.
+</small>  <br />
+
+
+
+
+  <li><strong>An Introduction to Self-Supervised Learning
+</strong><br />
+  <i>Kexin SHAO</i></li>
+  <small>The traditional optimal transport problem (OT) consists in minimizing the expected cost $\mathbb{E}[c(X_1, X_2)]$ by considering the joint distribution $(\mu,\nu)$ where the marginal distributions of the random variables $X_1 \sim \mu$ and $X_2 \sim \nu $ are fixed. Motivated by financial applications, martingale optimal transport is considered adding an additional martingale constraint $\mathbb{E}[ X_2 \vert X_1] = X_1$ on top of the OT problem. Hobson and Neuberger first studied the problem with the specific cost function $c(x, y) = −\vert y – x\vert$, Juillet and Beiglbock proved the uniqueness of the associated optimizer $\pi^{\rm HN}$ when $\mu$ is continuous. We observe numerically that the $\pi^{\rm HN}$ is still a maximizer for $\rho\in(0,2)$ and a minimizer for $\rho&gt;2$. We investigate the theoretical validity of this numerical observation and give rather restrictive sufficient conditions for the property to hold. We also exhibit couples $(\mu,\nu)$ such that it does not hold. $\pi^{\rm HN}$ is known to satisfy some monotonicity property which we call non-decreasing. We check that the non-decreasing property is preserved for maximizers when $\rho\in(0,1]$. In general, there exist distinct non-decreasing martingale couplings, and we find some decomposition of $\nu$ which is in one-to-one correspondence with couplings in a non-decreasing sense.
+</small>  <br />
+
+
+
+
+  <li><strong>L2 Hypocoercivity methods for kinetic Fokker-Planck equations with factorised Gibbs states
+</strong><br />
+  <i>Luca ZIVIANI</i></li>
+  <small>This contribution deals with L2 hypocoercivity methods for kinetic Fokker-Planck equations with inte- grable local equilibria and a factorisation property that relates the Fokker-Planck and the transport operators. Rates of convergence in presence of a global equilibrium, or decay rates otherwise, are estimated either by the corresponding rates in the diffusion limit, or by the rates of convergence to local equilibria, under moment conditions. On the basis of the underlying functional inequalities, we establish a classification of decay and convergence rates for large times, which includes for instance sub-exponential local equilibria and sub-exponential potentials.
+</small>  <br />
+
+
+
+
+  <li><strong>Regularisation by noise of singular SDEs and the selection problem
+</strong><br />
+  <i>Lukasz MADRY</i></li>
+  <small>We will consider the following class of equations - dX = b(X) dt + dW, where b is a singular function, possibly a distribution and W is an irregular noise. The well-posedness of these equations is by now a well-understood phenomenon, which is called regularisation by noise. We will outline recent developments of this theory - in particular, its non-Markovian aspects which allow to investigate the influence of the noise of different regularity than Brownian motion.
+
+Time permitting, we will also discuss new results on the selection problem, i.e. the limit of dX = b(X) dt + \eps dW where \eps tends to zero.
 </small>  <br />
 
 
@@ -195,7 +285,20 @@ References
     </p>
   </div>
 </footer>
-
+<!-- Parse the Latex divs with Katex-->
+<script type="text/javascript">
+  $("script[type='math/tex']").replaceWith(
+    function(){
+      var tex = $(this).text();
+      return katex.renderToString(tex, {displayMode: false});
+  });
+  
+  $("script[type='math/tex; mode=display']").replaceWith(
+    function(){
+      var tex = $(this).text();
+      return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
+  });
+</script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="/assets/vendor/jquery/jquery.min.js"></script>

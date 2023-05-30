@@ -130,6 +130,21 @@
 
 </div>
 
+<!-- MathJax -->
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
 
 <!-- Page content -->
 
@@ -164,30 +179,30 @@
     </tr>
     <tr>
         <td>11:00-11:30</td>
-        <td>Coffee Break</td>
+        <td><i>Coffee Break</i></td>
         <td>Coffee Break</td>
     </tr>
     <tr>
         <td>11:30 - 12:45</td>
         <td>1st years, <strong>Slot 1</strong>
         <br /><small>Benoit ORIOL</small>
-        <br /><small>Lucas REY</small>
+        <br /><small>Maxime SYLVESTRE</small>
         <br /><small>Antoine LOTZ</small>
         <br /><small>Quentin FRANÇOIS</small>
         <br /><small>Emma KOPP</small>
         </td>
         <td>1st years, <strong>Slot 2</strong>
         <br /><small>Antoine LUCIANO</small>
-        <br /><small>Maxime SYLVESTRE</small>
         <br /><small>Lydia GIACOMIN</small>
-        <br /><small>Martin MALVY</small>
         <br /><small>Hugo MALAMUT</small>
+        <br /><small>Luca ZIVIANI</small>
+        <br /><small></small>
         </td>
     </tr>
     <tr>
         <td>12:45 - 14:30</td>
-        <td>Lunch</td>
-        <td>Lunch</td>
+        <td><i>Lunch</i></td>
+        <td><i>Lunch</i></td>
     </tr>
     <tr>
         <td>14:30 - 15:15</td>
@@ -201,8 +216,8 @@
     </tr>
     <tr>
         <td>16:00 - 16:30</td>
-        <td>Coffee Break</td>
-        <td>Coffee Break</td>
+        <td><i>Coffee Break</i></td>
+        <td><i>Coffee Break</i></td>
     </tr>
     <tr>
         <td>16:30 - 17:15</td>
@@ -231,7 +246,20 @@
     </p>
   </div>
 </footer>
-
+<!-- Parse the Latex divs with Katex-->
+<script type="text/javascript">
+  $("script[type='math/tex']").replaceWith(
+    function(){
+      var tex = $(this).text();
+      return katex.renderToString(tex, {displayMode: false});
+  });
+  
+  $("script[type='math/tex; mode=display']").replaceWith(
+    function(){
+      var tex = $(this).text();
+      return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
+  });
+</script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="/assets/vendor/jquery/jquery.min.js"></script>
