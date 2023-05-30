@@ -26,7 +26,6 @@
   abstract: |
     In this talk we consider an Individual-Based Model for self-propelled particles interacting through local alignment and investigate its macroscopic limit. This model has been first introduced by C. Chen et al. to describe the behaviour of dense colony of flagellated bacteria (e.g. Escherichia coli) which self organize into robust collective oscillatory motion. In view of this, a ’Vicsek- Kuramoto style’ model has been used. The agent based model combines both Kuramoto and Vicsek dynamics - it takes from Kuramoto model the way in which agents try to syncronize the phase of their rotational movement and from the Vicsek model the fact that the syncronization is spacially local. We study the mean-field kinetic and hydrodynamic limits of this system. Due to the lack of energy and momentum preservation in the system, we use the notion of gen- eralized collisional invariant to obtain a closed set of macroscopic equation for the model. The final macroscopic model involves a continuity equation for the total density of particles, a non conservative equation for angular momentum density and a non conservative equation for the direction of the mean velocity.
 
-
 - title: |
      Asymptotics of random characteristic polynomials
   type: long
@@ -49,7 +48,7 @@
     Martingale Optimal Transport has found extensive applications in various financial contexts, particularly in the calibration of stochastic processes. The numerical solutions for this problem involve tackling a variational problem that entails non-linear partial differential equations. In this presentation, we delve into a discretization approach for the continuous problem and introduce a relaxation technique by incorporating an entropy term. This relaxation enables the utilization of algorithms analogous to those employed in classical entropic optimal transport. Moreover, we outline potential methodologies for implementing this algorithm on a GPU platform, thereby enhancing computational efficiency.
 
 - title: |
-     An Introduction to Self-Supervised Learning
+     Martingale optimal transport is considered adding an additional martingale constraint to the traditional optimal transport problem
   type: long
   authors: Kexin SHAO
   abstract: |
