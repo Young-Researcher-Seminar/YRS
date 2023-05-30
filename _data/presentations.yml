@@ -88,6 +88,6 @@
   type: long
   authors: Changqing FU
   abstract: |
-    In this talk, we takle the problem of adding geometrical constraints into neural networks for visual generative models. First we reformulate standard neural networks under a variational perspective and introduce the concept of geometry. Then we review major methods including Wasserstein Generative Adversarial Networks and Diffusion Models, and the constraints to control the generation process, including style, text, or other forms of signals. Finally we contribute several practical solutions using geometry and optimal transportation, involving convolution, activation, perceptual distance, with an emphasis on the description of the attention funcion which is recent breakthrough in machine learning.
+    In this talk, we takle the problem of adding geometrical constraints into neural networks for visual generative models. First we reformulate standard neural networks under a variational perspective and introduce the concept of geometry. Then we review major methods including Wasserstein Generative Adversarial Networks and Diffusion Models, and the constraints to control the generation process, including style, text, or other forms of signals. Finally we contribute several practical solutions using geometry and optimal transportation, involving convolution, activation, perceptual distance. Especially, we put emphasis on the description of the attention funcion which is recent breakthrough in machine learning.
 
 
