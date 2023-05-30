@@ -50,10 +50,11 @@
     Martingale Optimal Transport has found extensive applications in various financial contexts, particularly in the calibration of stochastic processes. The numerical solutions for this problem involve tackling a variational problem that entails non-linear partial differential equations. In this presentation, we delve into a discretization approach for the continuous problem and introduce a relaxation technique by incorporating an entropy term. This relaxation enables the utilization of algorithms analogous to those employed in classical entropic optimal transport. Moreover, we outline potential methodologies for implementing this algorithm on a GPU platform, thereby enhancing computational efficiency.
 
 - title: |
-     Martingale optimal transport is considered adding an additional martingale constraint to the traditional optimal transport problem
+    Non-decreasing martingale coupling
   type: long
   authors: Kexin SHAO
   abstract: |
+    Martingale optimal transport is considered adding an additional martingale constraint to the traditional optimal transport problem.
     The traditional optimal transport problem (OT) consists in minimizing the expected cost $\mathbb{E}[c(X_1, X_2)]$ by considering the joint distribution $(\mu,\nu)$ where the marginal distributions of the random variables $X_1 \sim \mu$ and $X_2 \sim \nu $ are fixed. Motivated by financial applications, martingale optimal transport is considered adding an additional martingale constraint $\mathbb{E}[ X_2 \vert X_1] = X_1$ on top of the OT problem. Hobson and Neuberger first studied the problem with the specific cost function $c(x, y) = −\vert y – x\vert$, Juillet and Beiglbock proved the uniqueness of the associated optimizer $\pi^{\rm HN}$ when $\mu$ is continuous. We observe numerically that the $\pi^{\rm HN}$ is still a maximizer for $\rho\in(0,2)$ and a minimizer for $\rho>2$. We investigate the theoretical validity of this numerical observation and give rather restrictive sufficient conditions for the property to hold. We also exhibit couples $(\mu,\nu)$ such that it does not hold. $\pi^{\rm HN}$ is known to satisfy some monotonicity property which we call non-decreasing. We check that the non-decreasing property is preserved for maximizers when $\rho\in(0,1]$. In general, there exist distinct non-decreasing martingale couplings, and we find some decomposition of $\nu$ which is in one-to-one correspondence with couplings in a non-decreasing sense.
 
 - title: |
@@ -73,13 +74,20 @@
     Joint work with Idriss Mazari and Paul Pegon.
 
 - title: |
-     Regularisation by noise of singular SDEs and the selection problem
+    Regularisation by noise of singular SDEs and the selection problem
   type: long
   authors: Lukasz MADRY
   abstract: |
-    We will consider the following class of equations - dX = b(X) dt + dW, where b is a singular function, possibly a distribution and W is an irregular noise. The well-posedness of these equations is by now a well-understood phenomenon, which is called regularisation by noise. We will outline recent developments of this theory - in particular, its non-Markovian aspects which allow to investigate the influence of the noise of different regularity than Brownian motion.
+    We will consider the following class of equations $- \mathrm{d}X = b(X) \mathrm{d}t + \mathrm{d}W$, where b is a singular function, possibly a distribution and W is an irregular noise. The well-posedness of these equations is by now a well-understood phenomenon, which is called regularisation by noise. We will outline recent developments of this theory - in particular, its non-Markovian aspects which allow to investigate the influence of the noise of different regularity than Brownian motion.
     <br/>
-    Time permitting, we will also discuss new results on the selection problem, i.e. the limit of dX = b(X) dt + \eps dW where \eps tends to zero.
+    Time permitting, we will also discuss new results on the selection problem, i.e. the limit of $\mathrm{d}X = b(X) \mathrm{d}t + \varepsilon \mathrm{d}W$ where $\varepsilon$ tends to zero.
 
+
+- title: |
+    Geometry and optimal transportation: applications to visual generative models
+  type: long
+  authors: Changqing FU
+  abstract: |
+    In this talk, we takle the problem of adding geometrical constraints into neural networks for visual generative models. First we reformulate standard neural networks under a variational perspective and introduce the concept of geometry. Then we review major methods including Wasserstein Generative Adversarial Networks and Diffusion Models, and the constraints to control the generation process using constraints, such as style, text, or other forms of signals. Finally we contribute several practical solutions using geometry and optimal transportation, involving convolution, activation, perceptual distance.
 
 
