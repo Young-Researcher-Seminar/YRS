@@ -104,3 +104,18 @@
   authors: Animesh JANA
   abstract: |
     TBA
+
+- title: |
+    On existence and uniqueness of stationary equilibria in macroeconomics models with heterogeneous agents
+  type: long
+  authors: Diego Alejandro MURILLO TABORDA
+  abstract: |
+    Macroeconomics models with heterogeneous agents can be used to answer to several of the most classical questions in economics. These models usually are represented as mean field games with equilibria given by solutions to nonlinear systems of couple partial differential equations (PDE), completely different to usual mean field games, where the nonlinearity between the value function and the distribution of the state variables is separable. Then there are some open mathematical problems about the existence and the uniqueness of the equilibria in the macroeconomic models with heterogeneous agents, unlike the same problem in usual mean field games, which have been debeloped several years ago. In this talk, I will present some own results about existence or uniqueness of stationary (without time dependence) equilibria in macroeconomics models with heterogeneous agents.
+
+    
+# - title: |
+#     Isentropic Euler equations: uniqueness and vacuum
+#   type: long
+#   authors: Animesh JANA
+#   abstract: |
+#     TBA
