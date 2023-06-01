@@ -59,7 +59,7 @@
 
 - title: |
      L2 Hypocoercivity methods for kinetic Fokker-Planck equations with factorised Gibbs states
-  type: long
+  type: short
   authors: Luca ZIVIANI
   abstract: |
     This contribution deals with L2 hypocoercivity methods for kinetic Fokker-Planck equations with inte- grable local equilibria and a factorisation property that relates the Fokker-Planck and the transport operators. Rates of convergence in presence of a global equilibrium, or decay rates otherwise, are estimated either by the corresponding rates in the diffusion limit, or by the rates of convergence to local equilibria, under moment conditions. On the basis of the underlying functional inequalities, we establish a classification of decay and convergence rates for large times, which includes for instance sub-exponential local equilibria and sub-exponential potentials.
@@ -99,13 +99,6 @@
 
 
 - title: |
-    Isentropic Euler equations: uniqueness and vacuum
-  type: long
-  authors: Animesh JANA
-  abstract: |
-    TBA
-
-- title: |
     On existence and uniqueness of stationary equilibria in macroeconomics models with heterogeneous agents
   type: long
   authors: Diego Alejandro MURILLO TABORDA
@@ -135,6 +128,35 @@
   abstract: |
     Control theory is the study of the best way to interact with a dynamical system to drive it to maximise a criterion. This is a functional optimization problem, which can be solved by resorting to a non-linear Partial Integro-Differential Equation equation. In some situations, this equation can be difficult to analyse or solve numerically. In such cases, we would like to be able to use a different system as an approximation. In this talk we will go over one methodology to swap two systems in control problems with approximation guarantees. After giving a general introduction to control theory, we will focus the presentation on the diffusion limit of high-frequency pure-jump systems and their various limit regimes, then talk about the method from a general perspective including fluid limits and numerical schemes.
 
+- title: |
+    Multidimensional price model for intraday power markets
+  type: short
+  authors: Antoine LOTZ
+  abstract: |
+    We try to model prices on the EPEX intraday power markets.
+
+
+- title: |
+    Gibbs Sampling with Robust Statistics
+  type: long
+  authors: Antoine LUCIANO
+  abstract: |
+    In some applied cases, access to complete data is restricted, often for privacy reasons, and only robust statistics of the data are available. These statistics are less sensitive to outliers and better protect the data thanks to a higher breakdown point. In this article, within a parametric framework, we propose a method for simulating complete data conditional on different robust statistics: the pairs (median, MAD) or (median, IQR) or one or more quantiles. Based on a Gibbs sampler, our method allows simulation according to the posterior of the parameters of certain family of distribution such as Gaussian or Cauchy families.
+ 
+
+# - title: |
+#     Multidimensional price model for intraday power markets
+#   type: short
+#   authors: Antoine Lotz
+#   abstract: |
+#     TBA
+
+# - title: |
+#     Isentropic Euler equations: uniqueness and vacuum
+#   type: long
+#   authors: Animesh JANA
+#   abstract: |
+    # TBA
 # - title: |
 #     Isentropic Euler equations: uniqueness and vacuum
 #   type: long
