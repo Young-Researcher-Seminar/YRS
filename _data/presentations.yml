@@ -54,7 +54,6 @@
   type: long
   authors: Kexin SHAO
   abstract: |
-    Martingale optimal transport is considered adding an additional martingale constraint to the traditional optimal transport problem.
     The traditional optimal transport problem (OT) consists in minimizing the expected cost $\mathbb{E}[c(X_1, X_2)]$ by considering the joint distribution $(\mu,\nu)$ where the marginal distributions of the random variables $X_1 \sim \mu$ and $X_2 \sim \nu $ are fixed. Motivated by financial applications, martingale optimal transport is considered adding an additional martingale constraint $\mathbb{E}[ X_2 \vert X_1] = X_1$ on top of the OT problem. Hobson and Neuberger first studied the problem with the specific cost function $c(x, y) = −\vert y – x\vert$, Juillet and Beiglbock proved the uniqueness of the associated optimizer $\pi^{\rm HN}$ when $\mu$ is continuous. We observe numerically that the $\pi^{\rm HN}$ is still a maximizer for $\rho\in(0,2)$ and a minimizer for $\rho>2$. We investigate the theoretical validity of this numerical observation and give rather restrictive sufficient conditions for the property to hold. We also exhibit couples $(\mu,\nu)$ such that it does not hold. $\pi^{\rm HN}$ is known to satisfy some monotonicity property which we call non-decreasing. We check that the non-decreasing property is preserved for maximizers when $\rho\in(0,1]$. In general, there exist distinct non-decreasing martingale couplings, and we find some decomposition of $\nu$ which is in one-to-one correspondence with couplings in a non-decreasing sense.
 
 - title: |
