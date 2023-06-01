@@ -67,7 +67,7 @@
 - title: |
      A varitional approach to reforesting
   type: long
-  authors: Joao PINTO ANASTACIO MACHADO
+  authors: João PINTO ANASTACIO MACHADO
   abstract: |
     We will discuss a variational model for the growth of a tree consisting of the maximization of a harvesting term, modelling the nutrients the plant can get from the soil, minus the cost of constructing the roots, modelled by the branched transportation distance between a Dirac measure (base of the trunk) and a measure giving the distribution of micro-filaments of the roots. The nutrients on the soil satisfy a quasilinear elliptic PDE with measure coefficients. Our first step is to prove wellposedness of the model in the form an existence and uniqueness result for this PDE. In the sequel use this model to define a N-player game where each tree is an agent competing for resources selfishly, and a master player has the agency of controlling the distribution of nutrients on the soil and the positions where the trees are planted. 
     <br/>
@@ -88,7 +88,7 @@
   type: long
   authors: Changqing FU
   abstract: |
-    In this talk, we takle the problem of adding geometrical constraints into neural networks for visual generative models. First we reformulate standard neural networks under a variational perspective and introduce the concept of geometry. Then we review major methods including Wasserstein Generative Adversarial Networks and Diffusion Models, and the constraints to control the generation process, including style, text, or other forms of signals. Finally we contribute several practical solutions using geometry and optimal transportation, involving convolution, activation, perceptual distance, etc. Especially, we put emphasis on the description of the attention funcion which is a recent breakthrough in machine learning.
+    In this talk, we takle the problem of adding geometrical constraints into neural networks for visual generative models. First we reformulate standard neural networks under a variational perspective and introduce the concept of geometry and invariance. Then we review major methods including Wasserstein Generative Adversarial Networks and Diffusion Models, and the constraints to control the generation process, including style, text, or other forms of signals. Finally we propose several practical solutions using geometry and optimal transportation, involving convolution, activation, perceptual distance, etc. Along the way, we put emphasis on the description of the attention funcion which is a recent breakthrough in machine learning.
 
 - title: |
     Closed-form MLE for multivariate/multiparameter regressions models with categorical explanatory variables
@@ -97,15 +97,12 @@
   abstract: |
     The maximum likelihood estimator (MLE) remains the most frequently used method to estimate the parameters of generalized linear models (GLM). But even for distributions within the exponential family, MLEs are not always tractable and need to be computed with numerical methods like Newton-Rapshon-type algorithm. Alternative closed-form estimator have been found in case of categorical explanatory variables for univariate random variables of one-parameter exponential type. Extensions of these estimators in case of multivariate and/or multi-parameter exponential type distributions are proposed, and some of their properties are studied. Those estimators are illustrated with simulated data. Actuarial applications involving causes-of-deaths mortality modelling are also presented.
 
-
 - title: |
     On existence and uniqueness of stationary equilibria in macroeconomics models with heterogeneous agents
   type: long
   authors: Diego Alejandro MURILLO TABORDA
   abstract: |
     Macroeconomics models with heterogeneous agents can be used to answer to several of the most classical questions in economics. These models usually are represented as mean field games with equilibria given by solutions to nonlinear systems of couple partial differential equations (PDE), completely different to usual mean field games, where the nonlinearity between the value function and the distribution of the state variables is separable. Then there are some open mathematical problems about the existence and the uniqueness of the equilibria in the macroeconomic models with heterogeneous agents, unlike the same problem in usual mean field games, which have been debeloped several years ago. In this talk, I will present some own results about existence or uniqueness of stationary (without time dependence) equilibria in macroeconomics models with heterogeneous agents.
-
-
 
 - title: |
     Some remarks on the long time behviour of Stochastic McKean-Vlasov Equations
@@ -116,7 +113,7 @@
     
 - title: |
     Wasserstein space and entropy
-  type: long
+  type: short
   authors: Hugo MALAMUT
   abstract: |
     I will introduce the concepts of Wasserstein distance and entropy, give some basic properties and a non-exhaustive list of their fruitful interactions.
@@ -138,11 +135,11 @@
 
 - title: |
     Gibbs Sampling with Robust Statistics
-  type: long
+  type: short
   authors: Antoine LUCIANO
   abstract: |
     In some applied cases, access to complete data is restricted, often for privacy reasons, and only robust statistics of the data are available. These statistics are less sensitive to outliers and better protect the data thanks to a higher breakdown point. In this article, within a parametric framework, we propose a method for simulating complete data conditional on different robust statistics: the pairs (median, MAD) or (median, IQR) or one or more quantiles. Based on a Gibbs sampler, our method allows simulation according to the posterior of the parameters of certain family of distribution such as Gaussian or Cauchy families.
- 
+
 
 # - title: |
 #     Multidimensional price model for intraday power markets
