@@ -30,7 +30,7 @@ title: Program
     <tr>
         <td>11:00-11:30</td>
         <td><i>Coffee Break</i></td>
-        <td>Coffee Break</td>
+        <td><i>Coffee Break</i></td>
     </tr>
     <tr>
         <td>11:30 - 12:45</td>

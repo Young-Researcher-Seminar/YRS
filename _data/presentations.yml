@@ -112,7 +112,29 @@
   abstract: |
     Macroeconomics models with heterogeneous agents can be used to answer to several of the most classical questions in economics. These models usually are represented as mean field games with equilibria given by solutions to nonlinear systems of couple partial differential equations (PDE), completely different to usual mean field games, where the nonlinearity between the value function and the distribution of the state variables is separable. Then there are some open mathematical problems about the existence and the uniqueness of the equilibria in the macroeconomic models with heterogeneous agents, unlike the same problem in usual mean field games, which have been debeloped several years ago. In this talk, I will present some own results about existence or uniqueness of stationary (without time dependence) equilibria in macroeconomics models with heterogeneous agents.
 
+
+
+- title: |
+    Some remarks on the long time behviour of Stochastic McKean-Vlasov Equations
+  type: long
+  authors: Raphael MAILLET
+  abstract: |
+    In this talk, we explore the long-term behavior of solutions to a nonlinear McKean-Vlasov equation with common noise. This equation arises naturally when studying the collective behavior of interacting particles driven by both individual and shared noise. Our main focus is to understand how the presence of common noise affects the stability of the system. We will first present the results for the case without common noise and then discuss how the introduction of common noise can enhance stability in certain respects.
     
+- title: |
+    Wasserstein space and entropy
+  type: long
+  authors: Hugo MALAMUT
+  abstract: |
+    I will introduce the concepts of Wasserstein distance and entropy, give some basic properties and a non-exhaustive list of their fruitful interactions.
+
+- title: |
+    Diffusion Limit and other Process Approximations for Control problems
+  type: long
+  authors: Lorenzo CROISSANT
+  abstract: |
+    Control theory is the study of the best way to interact with a dynamical system to drive it to maximise a criterion. This is a functional optimization problem, which can be solved by resorting to a non-linear Partial Integro-Differential Equation equation. In some situations, this equation can be difficult to analyse or solve numerically. In such cases, we would like to be able to use a different system as an approximation. In this talk we will go over one methodology to swap two systems in control problems with approximation guarantees. After giving a general introduction to control theory, we will focus the presentation on the diffusion limit of high-frequency pure-jump systems and their various limit regimes, then talk about the method from a general perspective including fluid limits and numerical schemes.
+
 # - title: |
 #     Isentropic Euler equations: uniqueness and vacuum
 #   type: long
