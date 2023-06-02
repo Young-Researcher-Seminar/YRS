@@ -140,12 +140,12 @@
     In some applied cases, access to complete data is restricted, often for privacy reasons, and only robust statistics of the data are available. These statistics are less sensitive to outliers and better protect the data thanks to a higher breakdown point. In this article, within a parametric framework, we propose a method for simulating complete data conditional on different robust statistics: the pairs (median, MAD) or (median, IQR) or one or more quantiles. Based on a Gibbs sampler, our method allows simulation according to the posterior of the parameters of certain family of distribution such as Gaussian or Cauchy families.
 
 
-# - title: |
-#     Multidimensional price model for intraday power markets
-#   type: short
-#   authors: Antoine Lotz
-#   abstract: |
-#     TBA
+- title: |
+    Many-body localization: an approach via the renormalization group
+  type: short
+  authors: Lydia GIACOMIN
+  abstract: |
+    In this presentation, I propose to introduce a model of a disordered many-particle system for which the goal is to prove the localization of energy at large disorder. I will start by introducing a well-known single particle model for which this localization phenomenon has been proven (this is known as Anderson localization). It is possible to prove Anderson localization by using the renormalization group, and we are attempting to use the same approach to prove many-body localization.
 
 # - title: |
 #     Isentropic Euler equations: uniqueness and vacuum
