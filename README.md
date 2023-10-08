@@ -1,4 +1,4 @@
-# Web pages for the 'CEREMADE Young Researcher Days'
+# Web pages for the 'CEREMADE Young Researcher Seminar'
 
 This web page uses Jekyll through GitHub pages which renders static HTML pages that are accessible at [https://young-researcher-days.github.io/](https://young-researcher-days.github.io/). The layout should auto-support various screen sizes etc. through bootstrap. 
 
